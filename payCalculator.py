@@ -1,8 +1,8 @@
 def calculatePay():
     
     # This first line is provided for you
-    hrs = input("Enter Hours: ")
-    rate = input('Enter Hours: ')
+    hrs = input("Enter Hours:")
+    rate = input('Enter Hours:')
 
     try:
         hrs = int(hrs)
