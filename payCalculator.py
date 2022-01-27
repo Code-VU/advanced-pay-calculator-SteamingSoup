@@ -6,7 +6,7 @@ def calculatePay():
 
     try:
         hrs = int(hrs)
-        rate = float(rate)
+        rate = int(rate)
 
         if hrs <= 40:
             pay = hrs * rate
